@@ -5,5 +5,4 @@ app.get("/", (request, response) => {
   response.send("Express JS");
 });
 
-module.exports = express;
-app.listen(3000);
+module.exports = app;
